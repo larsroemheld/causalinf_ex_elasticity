@@ -1,5 +1,5 @@
 # Causal Inference in the Wild: Elasticity Pricing
-This example gives a real-life example of causal inference in the wild. I use real ecommerce sales data and Double Machine Learning [1] to infer causal effects of price on quantity sold ("price elasticity of demand"). See the accompanying blogpost [TODO] for an easier-to-read version.
+This example gives a real-life example of causal inference in the wild. I use real ecommerce sales data and Double Machine Learning [1] to infer causal effects of price on quantity sold ("price elasticity of demand"). See the [accompanying blogpost](https://medium.com/@lars.roemheld/causal-inference-example-elasticity-de4a3e2e621b?source=friends_link&sk=9165a7fcb8f806fe0dd05cf8df702216) for an easier-to-read version.
 
 The plot below shows the main result: Double Machine Learning yields a beautifully observable estimate of elasticity, notably different from naive correlation.
 ![A binned scatterplot showing DML in action](img/elast_dml_result.png)
