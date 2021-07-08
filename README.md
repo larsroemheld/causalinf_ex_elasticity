@@ -8,7 +8,7 @@ The plot below shows the main result: Double Machine Learning yields a beautiful
 - `environment.yml` describes a conda environment. Nothing too fancy, this should run under most standard Anaconda settings.
 - `data_prep.ipynb` contains the data preparation steps. It is included only for completeness and to get a sense of real-world data; the output is a clean dataset in `econ_sample_clean.parquet`
 - `elasticity_dml.ipynb` contains the main code, and many explanations for context.
-- `models/` contains pre-trained RandomForest models so you don't have to train your own
+- `models/` saves pre-trained RandomForest models (they get too large for github)
 
 The project originally accompanies a workshop on causal inference for machine learners. Reach out if you are interested to learn more.
 
